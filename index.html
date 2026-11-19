@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobiografia | Lunara da Cruz Asunção</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lobster', cursive;
+            font-weight: bold;
+            background: linear-gradient(135deg, #d9f0ff, #8fc9ee, #164b78);
+            color: #123c60;
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.88);
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(12, 54, 91, 0.3);
+        }
+
+        header {
+            background: linear-gradient(135deg, #164b78, #438fbe);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header .decoracao {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 21px;
+            color: #d9f0ff;
+        }
+
+        .conteudo {
+            padding: 35px;
+        }
+
+        .secao {
+            background: #eaf6ff;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 20px;
+            border-left: 7px solid #438fbe;
+            transition: 0.3s;
+        }
+
+        .secao:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 7px 18px rgba(22, 75, 120, 0.13);
+        }
+
+        h2 {
+            color: #164b78;
+            font-size: 27px;
+            margin-bottom: 14px;
+        }
+
+        .secao p {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #285779;
+        }
+
+        .hobbies {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .hobby {
+            background: #c5e6fa;
+            padding: 16px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 18px;
+            color: #164b78;
+        }
+
+        .frase {
+            text-align: center;
+            background: linear-gradient(135deg, #164b78, #438fbe);
+            color: white;
+            padding: 35px 20px;
+            font-size: 25px;
+            line-height: 1.6;
+            border-radius: 20px;
+            margin-top: 25px;
+        }
+
+        footer {
+            background: #123c60;
+            color: #d9f0ff;
+            text-align: center;
+            padding: 25px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .conteudo {
+                padding: 20px;
+            }
+
+            .hobbies {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="decoracao">♡ ✧ ˚ · .</div>
+            <h1>Lunara da Cruz Asunção</h1>
+            <p>Minha autobiografia ♡</p>
+            <p>16 anos de histórias, sonhos e momentos!</p>
+        </header>
+
+        <main class="conteudo">
+
+            <section class="secao">
+                <h2>♡ Quem sou eu?</h2>
+                <p>
+                    Olá! Meu nome é Lunara da Cruz Asunção, tenho 16 anos
+                    e estou vivendo uma fase cheia de descobertas,
+                    aprendizados e sonhos. Sou uma menina que gosta de
+                    aproveitar os pequenos momentos da vida e criar
+                    lembranças especiais.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>♡ Minha história</h2>
+                <p>
+                    Nasci no dia 09 de novembro de 2010, na cidade de
+                    Grandes Rios, no Paraná. Cada fase da minha vida
+                    faz parte da minha história e contribui para a
+                    pessoa que estou me tornando.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>♡ Meus hobbies</h2>
+                <p>
+                    No meu tempo livre, gosto de fazer coisas que me
+                    deixam feliz e me ajudam a relaxar. Algumas das
+                    minhas atividades favoritas são:
+                </p>
+
+                <div class="hobbies">
+                    <div class="hobby">🏐 Jogar vôlei</div>
+                    <div class="hobby">📱 Jogar no celular</div>
+                    <div class="hobby">📖 Ler livros de poesia</div>
+                    <div class="hobby">🎬 Assistir romances</div>
+                </div>
+            </section>
+
+            <section class="secao">
+                <h2>♡ O que eu amo</h2>
+                <p>
+                    Sou apaixonada por filmes e séries de romance.
+                    Adoro histórias que envolvem amor, sentimentos
+                    e momentos emocionantes. Também gosto muito de
+                    ler poesias, pois encontro nelas uma maneira
+                    especial de enxergar os sentimentos.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>♡ Minha fé</h2>
+                <p>
+                    Sou católica e minha fé faz parte de quem eu sou.
+                    Acredito que Deus está presente em minha caminhada
+                    e é importante na minha vida.
+                </p>
+            </section>
+
+            <div class="frase">
+                "Vivendo, aprendendo, sonhando e escrevendo
+                minha própria história." ♡
+            </div>
+
+        </main>
+
+        <footer>
+            Feito com carinho por Lunara ♡
+            <br>
+            ✧ Minha história, meu jeitinho, minha essência ✧
+        </footer>
+
+    </div>
+
+</body>
+</html>
